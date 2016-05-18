@@ -3,7 +3,7 @@ Donate link: https://jeffshamley.com/
 Tags: utm, utm-switcher
 Requires at least: 4.3
 Tested up to: 4.5.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,12 +43,17 @@ Contact Form DB - This extension is not required, but we do recommend it.
 ### Usage
 
 To use a UTM Switch:
+
 1. Under UTM Switchers, click Add New
 2. Enter an Identifier -- this is for internal use only. You could use it to keep track of what the switch does.
 3. Enter an selector (an #ID or .classname or other selector) to target. This field uses [jQuery syntax](http://api.jquery.com/category/selectors/).
 4. Choose the Type. Phone Number Element will replace the whole element with an anchor link with a tel: attribute. Text replacement replaces all text in the above element.
 5. Click "Add Switcher" under UTM Source Switchers. A matching value in the Campaign Source field to the utm_source GET variable will replace the above selector's content with the value in the Replacement Value field. HTML can be used. You may add multple switches for different UTM Sources.
 6. Click Publish.
+
+### Contribute 
+
+To report any bugs, or to offer features, please use our Github repo at https://github.com/Shamley/UTM-Switcher
 
 == Installation ==
 
@@ -76,10 +81,19 @@ To use a UTM Switch:
 
 = Using FTP =
 
+== Screenshots ==
+1. UTM Switcher Add New page.
+2. When used with Contact Form 7, a UTM button appears that allows you to add the UTM fields in the form.
+3. When used with Contact Form 7, add the UTM shortcode into the Message body field.
+4. When emailed, the contact will receive the information obtained through the UTM shortcode
+
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Initial commit.
+
+= 1.0.1 =
+* Update README.txt to include screenshots and link to Github repo.
 
 
 == Updates ==
