@@ -14,9 +14,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       UTM Switcher
- * Plugin URI:        https://jeffshamley.com
+ * Plugin URI:        https://wordpress.org/plugins/utm-switcher/
  * Description:       Allows GET variables from Social Media Campaigns to modify content based on criteria. Also, adds these variables to CF7 Forms
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            David Alberts and Jeff Shamley
  * Author URI:        https://jeffshamley.com
  * Text Domain:       utm-switcher
